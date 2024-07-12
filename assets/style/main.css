@@ -61,6 +61,7 @@ main {
     font-size: 27.92px;
     font-weight: 800;
     line-height: 28.68px;
+    transform: translateX(-400px);
 }
 
 .banner-img {
