@@ -54,6 +54,8 @@ main {
     margin-top: 51.02px;
     font-size: 20.53px;
     line-height: 21.08px;
+    position: relative;
+    z-index: 10;
 }
 
 .banner-title-large {
@@ -62,17 +64,18 @@ main {
     font-weight: 800;
     line-height: 28.68px;
     transform: translateX(-400px);
+    position: relative;
+    z-index: 10;
 }
 
 .banner-img {
-    transform-origin: top left;
     position: absolute;
     object-fit: contain;
 }
 
 .img1 {
-    top: 162.62px;
-    left: -94.86px;
+    top: 132.62px;
+    left: -75.86px;
     width: 272.32px;
     height: 190.78px;
     transform: rotate(-12.76deg);
@@ -82,8 +85,8 @@ main {
 .img2 {
     width: 272.32px;
     height: 190.78px;
-    top: 128.56px;
-    left: 119.73px;
+    top: 146.56px;
+    left: 109.73px;
     transform: rotate(6.43deg);
     z-index: 3;
 }
@@ -91,8 +94,8 @@ main {
 .img3 {
     width: 251.28px;
     height: 213.51px;
-    top: 316.16px;
-    left: 252.65px;
+    top: 281.16px;
+    left: -22.65px;
     transform: rotate(114.98deg);
 }
 
